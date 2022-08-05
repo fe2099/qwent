@@ -3,7 +3,7 @@
 // int
 $minWidth: 320;
 $maxWidth: 1920;
-$maxWidthContainer: 1440;
+$maxWidthContainer: 1408;
 $md1: $maxWidthContainer + 12 + px;
 $md2: 991.98 + px;
 $md3: 767.98 + px;
@@ -11,7 +11,7 @@ $md4: 479.98 + px;
 //
 
 //Grid
-._container {
+.container {
 	max-width: $maxWidthContainer + px;
 	margin: 0 auto;
 	@media (max-width: $md1) {
@@ -118,7 +118,7 @@ h6 {
 //
 
 //Image
-._ibg {
+.image-container {
 	position: relative;
 	img {
 		position: absolute;
@@ -145,9 +145,6 @@ body._lock {
 
 //footer
 @import "footer";
-
-//menu
-@import "menu";
 
 //ui
 @import "ui";
