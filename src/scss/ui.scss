@@ -1,0 +1,19 @@
+.list {}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
+    border-radius: 16px;
+}
+
+.item__title {}
+
+.item__description {}
+
+.item_theme_01 {
+    .item__image {
+        background: #F0F4F6;
+        border-radius: 12px;
+    }
+}
