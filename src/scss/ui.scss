@@ -1,19 +1,311 @@
-.list {}
+.large_button {
+    padding: 19px 32px 21px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #B80C09;
+    border-radius: 16px;
+}
+
+.large_button:hover {
+    transition: all 0.3s ease 0s;
+    background: #E02723;
+    box-shadow: 0px 12px 24px rgba(184, 12, 9, 0.3);
+}
+
+.large_button:active {
+    border: 2px solid #B80C09;
+    color: #B80C09;
+    background: none;
+    box-shadow: none;
+}
+
+.small_button {
+    display: inline-flex;
+    padding: 14px 24px;
+    background: #0B4F6C;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.small_button:hover {
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 12px 24px rgba(11, 79, 108, 0.2);
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.list_gap_8 {
+    gap: 8px;
+}
 
 .item {
+    position: relative;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
     border-radius: 16px;
 }
 
-.item__title {}
+.item__image {
+    position: relative;
 
-.item__description {}
+    img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.item__title {
+    margin: 0px 0px 16px 0px;
+}
+
+.item__description {
+    color: #5E6B71;
+}
 
 .item_theme_01 {
+    width: 456px;
+    height: auto;
+    padding: 24px;
+
     .item__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 206px;
         background: #F0F4F6;
         border-radius: 12px;
+        margin: 0px 0px 24px 0px;
+        padding: 16px;
+
+        img {
+            border-radius: 1000px;
+        }
     }
+}
+
+.item_theme_02 {
+    width: 448px;
+    height: auto;
+    padding: 24px;
+
+    .item__image {
+        width: 368px;
+        height: 368px;
+        background: conic-gradient(from 180deg at 50% 50%, rgba(1, 89, 132, 0) 0deg, #015984 360deg);
+        border-radius: 1000px;
+        margin: 0px 0px 40px 0px;
+    }
+}
+
+.item_theme_03 {
+    width: 440px;
+    height: auto;
+    justify-content: space-between;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 8px;
+
+    .item__image {
+        width: 392px;
+        height: 262px;
+        border-radius: 8px;
+        margin: 0px 0px 24px 0px;
+    }
+}
+
+.item_theme_04 {
+    padding: 40px;
+    width: 670px;
+    height: auto;
+    box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
+    border-radius: 12px;
+    margin: 12px;
+    justify-content: space-between;
+
+    .item__image {
+        display: flex;
+        justify-content: end;
+        height: 48px;
+        border-radius: 200px;
+        margin: 0px 0px 24px 0px;
+
+        img {
+            width: 48px;
+        }
+    }
+}
+
+.item_theme_05 {
+    padding: 40px;
+    width: 670px;
+    height: auto;
+    box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
+    border-radius: 12px;
+    margin: 12px;
+    justify-content: space-between;
+
+    .item__image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        margin: 0px 0px 40px 0px;
+
+        img {
+            position: relative;
+            width: 80px;
+            background: url(), linear-gradient(0deg, #1877AC, #1877AC), linear-gradient(0deg, rgba(5, 60, 109, 0.75), rgba(5, 60, 109, 0.75)), url(low-angle-shot-metal-black-ceiling-with-white-ventilation-pipes.jpg);
+            background-blend-mode: color-dodge, color, normal, normal;
+            border-radius: 200px;
+        }
+    }
+}
+
+.item_theme_06 {
+    padding: 40px;
+    width: 440px;
+    height: auto;
+    box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
+    border-radius: 12px;
+    margin: 8px;
+    justify-content: space-between;
+
+    .item__image {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 80px;
+        margin: 0px 0px 40px 0px;
+
+        img {
+            position: relative;
+            width: 80px;
+            background: url(), linear-gradient(0deg, #1877AC, #1877AC), linear-gradient(0deg, rgba(5, 60, 109, 0.75), rgba(5, 60, 109, 0.75)), url(low-angle-shot-metal-black-ceiling-with-white-ventilation-pipes.jpg);
+            background-blend-mode: color-dodge, color, normal, normal;
+            border-radius: 200px;
+        }
+    }
+}
+
+.item_theme_07 {
+    padding: 24px;
+    width: 328px;
+    height: auto;
+    box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
+    border-radius: 16px;
+    justify-content: space-between;
+
+    .item__image {
+        display: flex;
+        justify-content: start;
+        height: 48px;
+        margin: 0px 0px 80px 0px;
+
+        img {
+            position: relative;
+            width: 48px;
+            background: #0B4F6C;
+            border-radius: 200px;
+        }
+    }
+}
+
+.item_theme_08 {
+    padding: 24px;
+    width: 464px;
+    height: auto;
+    box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
+    border-radius: 16px;
+    justify-content: space-between;
+
+    .item__image {
+        display: flex;
+        justify-content: start;
+        height: 120px;
+        margin: 0px 0px 40px 0px;
+        color: #fff;
+
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 120px;
+            background: url(), linear-gradient(0deg, #1877AC, #1877AC), linear-gradient(0deg, rgba(5, 60, 109, 0.75), rgba(5, 60, 109, 0.75)), url(low-angle-shot-metal-black-ceiling-with-white-ventilation-pipes.jpg);
+            background-blend-mode: color-dodge, color, normal, normal;
+            border-radius: 200px;
+        }
+    }
+}
+
+.item_theme_09 {
+    padding: 40px;
+    width: 444px;
+    height: auto;
+    box-shadow: 0px 4px 24px rgba(40, 206, 242, 0.15);
+    border-radius: 12px;
+    margin: 12px;
+    justify-content: space-between;
+}
+
+.item_theme_09:nth-child(2) {
+    width: 456px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(19, 158, 236, 0.2);
+    border-radius: 8px;
+    margin: 0;
+}
+
+.item_theme_03::after,
+.item_theme_04::after,
+.item_theme_05::after,
+.item_theme_06::after,
+.item_theme_09::after {
+    position: absolute;
+    content: '';
+    border: 1px solid #D1EAF5;
+}
+
+.item_theme_03::after,
+.item_theme_06::after {
+    top: -8px;
+    left: -8px;
+    height: calc(100% + 16px);
+    width: calc(100% + 16px);
+    border-radius: 12px;
+}
+
+.item_theme_04::after,
+.item_theme_05::after,
+.item_theme_09:nth-child(2n - 1)::after {
+    top: -12px;
+    left: -12px;
+    height: calc(100% + 24px);
+    width: calc(100% + 24px);
+    border-radius: 16px;
+}
+
+.item_theme_06::after {
+    border-radius: 16px;
+}
+
+.swiper {
+    width: 1200px;
+    height: 900px;
 }

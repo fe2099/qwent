@@ -1,0 +1,457 @@
+.hero {
+    &__container {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    &__side-bar {
+        width: 582px;
+        padding: 40px;
+        background: #FFFFFF;
+        border: 1px solid #CCDBE1;
+        border-radius: 16px;
+    }
+
+    &__title {
+        margin: 0px 0px 24px 0px;
+    }
+
+    &__description {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #5E6B71;
+        margin: 0px 0px 40px 0px;
+    }
+
+    &__list {}
+
+    &__list-item {
+        margin: 0px 0px 16px 0px;
+    }
+
+    &__content {
+        width: 818px;
+    }
+
+    &__image {
+        background: #F0F4F6;
+        width: 818px;
+        height: 460px;
+        border-radius: 16px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        margin: 0px 0px 8px 0px;
+
+    }
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 40px;
+        width: auto;
+        background: #F0F4F6;
+        border-radius: 16px;
+        gap: 40px;
+    }
+
+    &__contact-wrapper {}
+
+    &__contact-title {
+        margin: 0px 0px 8px 0px;
+    }
+
+    &__contact-description {}
+
+    &__contact-button {}
+}
+
+.container {
+    padding: 60px 0px 60px 0px;
+
+    &__title {
+        margin: 0px 0px 64px 0px;
+    }
+
+    &__list {}
+
+    &__side-bar {}
+
+    &__description {}
+
+    &__list-item {}
+}
+
+.container:first-child {
+    padding: 0px 0px 60px 0px;
+}
+
+.container:last-child {
+    padding: 60px 0px 0px 0px;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.list {
+
+    &__item {}
+}
+
+.item {
+
+    &_theme {}
+
+    &_theme {}
+
+    &_theme {}
+
+    &_theme {}
+
+    &_theme {}
+
+    &_theme {}
+
+    &_theme {}
+
+    &_theme {}
+
+    &_theme {}
+
+    &__content {}
+
+    &__title {}
+
+    &__description {}
+
+    &__image {}
+
+    &__time-to-read {}
+}
+
+.side-bar {
+    min-width: 416px;
+    width: 416px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 24px rgba(19, 158, 236, 0.2);
+    margin: 0px 64px 0px 0px;
+
+    &__image {
+        height: 416px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+    }
+
+    &__title {
+        margin: 0px 0px 16px 0px;
+    }
+
+    &__description {
+        margin: 0px 0px 24px 0px;
+    }
+
+    &__button {}
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__title {
+        margin: 0px 0px 64px 0px;
+    }
+
+    &__container {}
+
+    &__tabs {}
+
+    &__image {}
+
+    &__description {}
+}
+
+.tabs {
+
+    &__container {}
+
+    &__list {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 8px;
+        margin: 0px 0px 40px 0px;
+    }
+
+    &__item {}
+
+    &__content {}
+
+    &__item-content {}
+
+    &__item-title {}
+
+    &__item-description {}
+}
+
+.slider {
+
+    &__header {}
+
+    &__content {}
+
+    &__title {}
+
+    &__description {}
+
+    &__navigation {}
+
+    &__counter {}
+
+    &__prev {}
+
+    &__next {}
+
+    &__container {}
+
+    &__list {}
+
+    &__item {}
+
+    &__item-image {}
+
+    &__item-title {}
+
+    &__item-description {}
+
+    &__item-count {}
+
+    &__item-side-container {}
+
+    &__garanties {}
+
+    &__item-container {}
+
+    &__item-rating {}
+
+    &__item-date {}
+}
+
+.video {
+
+    &__side-bar {}
+
+    &__content {}
+
+    &__title {}
+
+    &__description {}
+
+    &__link {}
+
+    &__image {}
+
+    &__button {}
+}
+
+.objects {
+
+    &__title {}
+
+    &__description {}
+
+    &__list {}
+
+    &__item {}
+}
+
+.calculator {}
+
+.work-stages {}
+
+.faq {
+
+    &__container {}
+
+    &__title {}
+
+    &__list {}
+
+    &__item {}
+
+    &__item-title {}
+
+    &__item-description {}
+}
+
+.certificates {
+
+    &__item {}
+
+    &__item-title {}
+
+    &__item-image {}
+
+    &__item-button {}
+}
+
+.partners {
+
+    &__item {}
+
+    &__logo {}
+}
+
+.form {
+
+    &__container {}
+
+    &__title {}
+
+    &__description {}
+
+    &__content {}
+
+    &__checkbox-list {}
+
+    &__checkbox-item {}
+
+    &__input-list {}
+
+    &__input-item {}
+
+    &__textarea-item {}
+
+    &__bottom {}
+
+    &__file {}
+
+    &__file-input {}
+
+    &__file-description {}
+
+    &__submint {}
+
+    &__submint-button {}
+
+    &__submint-description {}
+}
+
+.triggers {
+
+    &__container {}
+
+    &__title {}
+
+    &__list {}
+
+    &__item {}
+
+    &__item-image {}
+
+    &__item-title {}
+
+    &__item-description {}
+}
+
+.price {
+
+    &__title {}
+
+    &__table {}
+}
+
+.table {
+
+    &__row {}
+
+    &__column {}
+
+    &__title {}
+}
+
+.clients {
+
+    &__item {}
+
+    &__logo {}
+}
+
+.cases {
+
+    &__container {}
+
+    &__title {}
+
+    &__list {}
+
+    &__item {}
+
+    &__item-image {}
+
+    &__item-type {}
+
+    &__item-title {}
+
+    &__item-description {}
+
+    &__item-info {}
+
+    &__item-area {}
+
+    &__item-date {}
+
+    &__item-adresse {}
+
+    &__filter {}
+
+    &__filter-title {}
+
+    &__filter-list {}
+
+    &__filter-item {}
+
+    &__filter-button {}
+}
+
+.services {
+
+    &__image {}
+
+    &__list {}
+
+    &__item {}
+
+    &__item-title {}
+
+    &__item-description {}
+}
+
+.advantage {
+
+    &__list {}
+
+    &__item {}
+
+    &__item-count {}
+
+    &__item-title {}
+
+    &__item-description {}
+}
+
+.youtube {}
+
+.mounting-stages {
+
+    &__container {}
+
+    &__list {}
+}
