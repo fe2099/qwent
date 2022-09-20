@@ -1,0 +1,161 @@
+.footer {
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 0px 0px 24px 0px;
+        margin: 60px auto 0px auto;
+    }
+
+    &__menu {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 8px;
+        font-family: 'NunitoSans';
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__logo {
+        border: 1px solid rgba(85, 132, 153, 0.3);
+        border-radius: 16px;
+        padding: 40px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__cases {
+        background: #008DC5;
+        color: #fff;
+        border-radius: 16px;
+        padding: 28px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+
+    &__banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 64px;
+        border: 1px solid #CCDBE1;
+        border-radius: 16px;
+        max-width: 277px;
+        height: 268px;
+    }
+
+    &__adress {
+        background: #F0F4F6;
+        border-radius: 16px;
+        padding: 64px 40px;
+        gap: 64px;
+        flex: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__adress-item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__adress-title {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #008DC5;
+    }
+
+    &__adress-link {
+        font-family: 'NunitoSans';
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        text-decoration-line: underline;
+        color: #101010;
+    }
+
+    &__adress-description {
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #5E6B71;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        flex: auto;
+        border: 1px solid rgba(85, 132, 153, 0.3);
+        border-radius: 16px;
+        padding: 20px;
+    }
+
+    &__social {
+        font-family: 'NunitoSans';
+    }
+
+    &__copyright {
+        border: 1px solid rgba(85, 132, 153, 0.3);
+        border-radius: 16px;
+        padding: 20px;
+    }
+}
+
+.column {
+
+    &_theme_1 {
+        flex: 0 1 277px;
+    }
+
+    &_theme_2 {
+        flex: auto;
+    }
+
+    &_theme_3 {}
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 24px;
+        justify-content: space-between;
+        border: 1px solid rgba(85, 132, 153, 0.3);
+        border-radius: 16px;
+        padding: 24px;
+        flex: auto;
+    }
+
+    &__item-title {}
+
+    &__item-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: #101010;
+    }
+}

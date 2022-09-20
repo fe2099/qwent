@@ -1,7 +1,7 @@
 import * as flsFunctions from "./modules/webp-support.js";
 flsFunctions.isWebp();
 
-import {swiper} from './modules/swiper.js';
+import * as swiper from './modules/swiper.js';
 
 function multiplier(element, value) {
     const e = document.querySelector(`.${element}`);
@@ -11,7 +11,7 @@ function multiplier(element, value) {
 }
 
 multiplier('item_theme_01', 5)
-multiplier('item_theme_02', 5)
+// multiplier('item_theme_02', 10)
 multiplier('item_theme_03', 5)
 multiplier('item_theme_04', 5)
 multiplier('item_theme_05', 5)
@@ -20,3 +20,6 @@ multiplier('item_theme_07', 5)
 multiplier('item_theme_08', 5)
 multiplier('item_theme_09', 3)
 multiplier('tabs__item', 7)
+multiplier('faq__item', 5)
+multiplier('certificates__item', 5)
+multiplier('partners__item', 5)

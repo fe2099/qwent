@@ -1,9 +1,9 @@
 @use "sass:math";
 
 // int
-$minWidth: 320;
-$maxWidth: 1920;
-$maxWidthContainer: 1408;
+$minWidth: 320 + px;
+$maxWidth: 1920 + px;
+$maxWidthContainer: 1408 + px;
 $md1: $maxWidthContainer + 12 + px;
 $md2: 991.98 + px;
 $md3: 767.98 + px;
@@ -12,7 +12,8 @@ $md4: 479.98 + px;
 
 //Grid
 .container {
-	max-width: $maxWidthContainer + px;
+	max-width: $maxWidthContainer;
+	width: 100%;
 	margin: 0 auto;
 
 	@media (max-width: $md1) {
@@ -127,7 +128,7 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
-	color: #101010;
+	color: #5E6B71;
 }
 
 h1,
@@ -137,7 +138,8 @@ h4,
 h5,
 h6 {
 	font-size: inherit;
-	font-family: 'Nunito Sans';
+	font-family: 'NunitoSans';
+	color: #101010;
 }
 
 //
