@@ -123,7 +123,7 @@ img {
 }
 
 body {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -183,8 +183,6 @@ h6 {
 //header
 @import "header";
 
-//main
-@import "main";
 
 //footer
 @import "footer";
@@ -192,7 +190,15 @@ h6 {
 //ui
 @import "ui";
 
+//main
+@import "main";
+
+
 @import 'fonts';
+
+img {
+	max-width:100%;
+}
 
 // image
 .image-container {
@@ -207,3 +213,6 @@ h6 {
 		object-fit: cover;
 	}
 }
+
+//main
+@import "mobile";

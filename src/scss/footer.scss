@@ -109,6 +109,13 @@
         border: 1px solid rgba(85, 132, 153, 0.3);
         border-radius: 16px;
         padding: 20px;
+        a {
+            text-decoration-line: underline;
+            color: #101010;
+            &:hover {
+                text-decoration-line:none;
+            }
+        }
     }
 
     &__social {
@@ -155,7 +162,13 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 22px;
-        text-decoration-line: underline;
         color: #101010;
+        a {
+            text-decoration-line: underline;
+            color: #101010;
+            &:hover {
+                text-decoration-line:none;
+            }
+        }
     }
 }

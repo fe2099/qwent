@@ -44,6 +44,7 @@
         line-height: 24px;
         text-align: center;
         color: #008DC5;
+        border-bottom:1px dashed;
     }
 
     &__container {
@@ -53,8 +54,6 @@
         gap: 64px;
         margin: 24px auto;
     }
-
-    &__logo {}
 
     &__adress {
         :first-child {
@@ -127,6 +126,7 @@
     }
 
     &__item {
+        color: #003164;
         gap: 12px;
         display: inline-flex;
         align-items: center;
